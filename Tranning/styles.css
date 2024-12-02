@@ -1,0 +1,98 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #4a148c98;
+    margin: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: url('./images/bc\ long\ image.jpg') no-repeat center center/cover;
+    color: rgb(253, 251, 251);
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 7rem 1rem;
+    /* background-color: #FBE9E7; */
+    background: url('./images/Blue\ Corporate\ Linkedin\ Article\ Cover\ image\ .png') no-repeat center center/cover;
+    background-size: 100% 99%;
+    /* Light beige */
+    color: #ffffff;
+}
+
+/* Portfolio Section */
+.portfolio {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #FFEB3B;
+    /* Yellow shade */
+}
+
+.portfolio .projects {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.portfolio .project {
+    text-align: center;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.portfolio .project-image {
+    width: 200px;
+    height: 200px;
+    background: #e0e0e0;
+    line-height: 200px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
